@@ -1,0 +1,42 @@
+1. Check out the code reviewer guidelines for software engineers at Yelp and Microsoft (Visual Studio Mobile team). 
+What concepts are similar between the companies (List at least two)? 
+
+Both emphasize the importance of communication between the author of the code and the reviewers. 
+The companies encourage open discussions between authors and reviewers and like when people ask questions, and provide useful feedback.
+
+Another similarity is that both companies talk about how code reviews should focus on correctness, design, and readibility of the code aside from just style preferences. 
+
+What are some key differences (List at least two)?
+
+One key difference is that Yelp created a concept called "primary reviewer" who has the job of approving the code. 
+Microsoft doesn't mention anything about people approving reviews.
+Another difference is that Microsoft uses Emoji's to convey tone and meaning behind comments. A very unique way of reviewing code or documenting code. 
+
+In general, what items should be present in a code review checklist for a development team?
+
+Some items that should be present include:
+1. Verifying correctness
+2. Analyzing design choices 
+3. Making sure code is readable
+4. Code is tested
+5. Code is secure
+6. Reviews are reasonably lengthed, not too long/short
+ 
+
+
+
+The next questions will require you to review code reviews on the Code Review Stack Exchange (https://codereview.stackexchange.com/) website, 
+a Stack Overflow-like website for code reviews between peers online. 
+To analyze reviews, you may use either of the code review guidelines above, another code review checklist online (cite the source), or your own personal knowledge, opinions, and experience.
+
+2. Find an example of a "good" code review. Provide a link to the review and explain why you found the review beneficial.
+https://codereview.stackexchange.com/questions/291562/a-tic-tac-toe-game-in-c
+This review is about helping someone build a tic-tac-toe game in C programming language. 
+This review is "Good" because it identifies logical issues, style issues, suggestions, as well as keeping the review a decent length. 
+All of the things that the reviewer is saying are easy to read and understand. 
+
+3. Find an example of a "bad" code review. Provide a link to the review and briefly explain why you found the review not beneficial. In addition, include recommendations for improvement to the review feedback.
+https://codereview.stackexchange.com/questions/291834/flattening-a-2d-stm-image-by-subtracting-an-nth-order-polynomial-without-typin
+This review is "bad" because the reviewer doesn't give enough info on the changes that he suggests to make to the program. 
+When suggesting or reviewing code, you need to make sure you are explaining to the author in detail what you are suggesting and why. 
+If we were to help this person or fix the review, we would make sure to document the added code in the review better. 
